@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C65971B61D4072B200B05810 /* FinalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C65971B51D4072B200B05810 /* FinalViewController.m */; };
+		C65971B91D4074C500B05810 /* UIButton+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C65971B81D4074C500B05810 /* UIButton+Extension.m */; };
 		C6F098521D3FC1B9006B1363 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F098511D3FC1B9006B1363 /* main.m */; };
 		C6F098551D3FC1B9006B1363 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F098541D3FC1B9006B1363 /* AppDelegate.m */; };
 		C6F098581D3FC1B9006B1363 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C6F098571D3FC1B9006B1363 /* ViewController.m */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C65971B41D4072B200B05810 /* FinalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinalViewController.h; sourceTree = "<group>"; };
+		C65971B51D4072B200B05810 /* FinalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinalViewController.m; sourceTree = "<group>"; };
+		C65971B71D4074C500B05810 /* UIButton+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Extension.h"; sourceTree = "<group>"; };
+		C65971B81D4074C500B05810 /* UIButton+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Extension.m"; sourceTree = "<group>"; };
 		C6F0984D1D3FC1B9006B1363 /* likeMusicSwitch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = likeMusicSwitch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6F098511D3FC1B9006B1363 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C6F098531D3FC1B9006B1363 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +116,10 @@
 				C6F0985E1D3FC1B9006B1363 /* LaunchScreen.storyboard */,
 				C6F098611D3FC1B9006B1363 /* Info.plist */,
 				C6F098501D3FC1B9006B1363 /* Supporting Files */,
+				C65971B41D4072B200B05810 /* FinalViewController.h */,
+				C65971B51D4072B200B05810 /* FinalViewController.m */,
+				C65971B71D4074C500B05810 /* UIButton+Extension.h */,
+				C65971B81D4074C500B05810 /* UIButton+Extension.m */,
 			);
 			path = likeMusicSwitch;
 			sourceTree = "<group>";
@@ -270,7 +280,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C65971B91D4074C500B05810 /* UIButton+Extension.m in Sources */,
 				C6F098581D3FC1B9006B1363 /* ViewController.m in Sources */,
+				C65971B61D4072B200B05810 /* FinalViewController.m in Sources */,
 				C6F098551D3FC1B9006B1363 /* AppDelegate.m in Sources */,
 				C6F098521D3FC1B9006B1363 /* main.m in Sources */,
 			);
@@ -496,6 +508,7 @@
 				C6F0987C1D3FC1B9006B1363 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6F0987D1D3FC1B9006B1363 /* Build configuration list for PBXNativeTarget "likeMusicSwitchTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				C6F0987F1D3FC1B9006B1363 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C6F098801D3FC1B9006B1363 /* Build configuration list for PBXNativeTarget "likeMusicSwitchUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				C6F098821D3FC1B9006B1363 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
